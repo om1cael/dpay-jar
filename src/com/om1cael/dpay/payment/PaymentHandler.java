@@ -1,3 +1,7 @@
+package com.om1cael.dpay.payment;
+
+import com.om1cael.dpay.User;
+
 public class PaymentHandler {
     public void addFunds(User user, float amount) {
         if(amount <= 0) {

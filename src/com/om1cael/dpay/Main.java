@@ -1,3 +1,7 @@
+package com.om1cael.dpay;
+
+import com.om1cael.dpay.payment.PaymentHandler;
+
 public class Main {
     public static void main(String[] args) {
         PaymentHandler paymentHandler = new PaymentHandler();

@@ -1,3 +1,7 @@
+package com.om1cael.dpay;
+
+import com.om1cael.dpay.payment.Transaction;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,7 +63,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "com.om1cael.dpay.User{" +
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", funds=" + funds +
