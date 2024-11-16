@@ -63,7 +63,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "com.om1cael.dpay.User{" +
+        return "User{" +
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", funds=" + funds +
